@@ -48,6 +48,15 @@ html {
     transform: rotate(90deg);
     transition-timing-function: cubic-bezier(0, 2.85, 0.24, 1.08);
 }
+
+.hour-hand{
+  background-color: aliceblue;
+  width: 40%;
+  left: 10%
+}
+
+
+
 a{
   display: block;
   position: absolute;
