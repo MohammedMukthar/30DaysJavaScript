@@ -50,3 +50,12 @@ kbd {
     letter-spacing: .1rem;
     color: #ffc600;
   }
+
+  a{
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    color: white;
+    font-size: 2rem;
+  }
