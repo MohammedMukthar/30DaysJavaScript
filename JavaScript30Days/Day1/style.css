@@ -17,6 +17,12 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 .key{
@@ -58,4 +64,22 @@ kbd {
     left: 13%;
     color: white;
     font-size: 2rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .keys{
+        display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 50% auto;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    }
+
   }
